@@ -43,7 +43,7 @@ function check(encryptedPassword, password) {
         arr[4]
     ];
    
-    return decrypted.join('') === 'password';
+    return decrypted.join('') === password;
      
 }
 console.log(crypto('password'));
