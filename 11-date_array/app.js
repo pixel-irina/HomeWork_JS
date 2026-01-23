@@ -70,4 +70,5 @@ function filterDates(arr) {
         return acc;
     }, []);
 }
+
 console.log(filterDates(data));
